@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 k++;
                 String s=Integer.toString(k);
-                txt.setText(s,TextView.BufferType.EDITABLE);
+                txt.setText(s);
             }
         });
 
